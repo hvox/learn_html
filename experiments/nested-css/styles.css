@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+	body { background:  #333; color: white; }
+}
+
+@media (prefers-color-scheme: light) {
+	body { background:  #white; color: #333; }
+}
+
+@media only screen and (max-width: 499px) {
+	* {
+		/* color: red !important; */
+		background-color: red !important;
+		/* border-color: red !important; */
+	}
+}
+
+main {
+	margin: auto;
+	max-width: 120ch;
+	border: 3px solid gray;
+	padding: 1ch 4ch;
+	border-radius: 4ch;
+}
+
+div.red-headers {
+	h1,h2,h3,h4,h5,h6 {
+		color: red;
+	}
+}
